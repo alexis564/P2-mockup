@@ -1,0 +1,133 @@
+.header{
+  padding: 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 15px;
+}
+.body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.tabs a {
+  border-top: 2px solid blue;
+  padding-top: 35px;
+}
+
+.logo{
+  width: 70px;
+  height: 30px;
+}
+nav a:link, a:visited{
+  text-decoration: none;
+}
+h6{
+  color: #777;
+  padding-left: 20px;
+}
+h3{
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.text{
+  line-height: 5px;
+}
+#searchbox{
+  width: 35%;
+  margin:0;
+  padding-left:20px;
+}
+#searchbox input,button{
+  width:50%;
+  border:1px solid #ccc;
+  border-right:0px solid white;
+  background:transparent;
+  color: white;
+}
+#searchbox button{
+  width:25%;
+  height:100%;
+  background: blue;
+  color:white;
+  border-left:0px;
+  cursor: pointer;
+}
+.filter-wrapper{
+  display: flex;
+  padding-left: 20px;
+
+}
+.filter-types li{
+  display:inline;
+  justify-content: space-between;
+}
+.grid-container{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  background-color: #f3f3f3;
+  grid-auto-rows: minmax(100,auto);
+  grid-gap: 10px;
+
+}
+.accomodationimg{
+  width: 180px;
+  height: 100px;
+  align-items: center;
+}
+.nested{
+  justify-content: center;
+  border:1px solid #ccc;
+  padding: 5px;
+
+}
+.grid2{
+  display:grid;
+  width:100%;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows:minmax(100,auto);
+  grid-gap: 10px;
+
+}
+.grid2 > div{
+  background: #ddd;
+
+}
+.actvitiesimg{
+
+}
+.box1{
+  grid-row:1/2;
+
+}
+.box2{
+
+}
+.box3{
+
+}
+.box4{
+
+}
+.box5{
+
+}
+.box6{
+
+}
+.footer{
+  display:grid;
+  grid-template-columns:auto auto auto;
+  padding: 20px;
+  background: #f3f3f3;
+
+}
+.item{
+  font-size: 12px;
+  padding: 10px;
+  line-height: 10px;
+}
+.item span{
+font-weight: bold;
+}
